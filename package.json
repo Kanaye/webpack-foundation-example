@@ -1,0 +1,19 @@
+{
+  "name": "webpack-foundation-example",
+  "version": "0.0.1",
+  "description": "A example on how to use foundation with webpack, scss and webpack-text-extract.",
+  "private": true,
+  "author": "Joscha Rohmann",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "foundation-sites": "^6.2.4",
+    "jquery": "^3.1.1",
+    "node-sass": "^3.13.0",
+    "postcss-loader": "^1.1.1",
+    "sass-loader": "^4.0.2",
+    "webpack": "^1.13.3"
+  }
+}
