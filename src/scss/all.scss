@@ -1,4 +1,12 @@
-// Use the webpack import with for file sprefixed with: "~"
-@import "~foundation-sites/assets/foundation";
+// Use the webpack import with for file sprefixed with: "~" imports the foundation include mixins
+@import "~foundation-sites/scss/foundation";
+
+// include here the foundation-modules you need, for a list of possible imports see the foundation.scss in node_modules/foundaton-sites/scss/
+// for example this includes the float grid (http://foundation.zurb.com/sites/docs/grid.html)
+@include foundation-grid;
+
+// if you want to include everything you comment out all includes above
+// and uncomment the following line
+// @include foundation-everything;
 
 // write your own imports for your scss here
